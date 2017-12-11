@@ -1,0 +1,97 @@
+html {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	/*border: 1px solid darkgrey;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+h1 {
+	background-color: lightgrey;
+	border: 1px solid darkgrey;
+	margin: 10px 0;
+	width: 200px;
+	height: 100px;
+	font-weight: lighter;
+}
+
+a {
+	background-color: lightgrey;
+	border: 1px solid darkgrey;
+	margin: 5px;
+	padding: 10px 40px;
+	height: 50px;
+	width: 150px;
+	text-decoration: none;
+}
+
+aside {
+	border: 1px solid darkgrey;
+	background-color: lightgrey;
+	margin: 5px;
+	height: 450px;
+	width: 12%;
+	display: inline-block;
+	float: left;
+	/*display: flex;*/
+}
+
+div {
+	display: flex;
+	/*border: 1px solid darkgrey;*/
+	width: 85%;
+	flex-wrap: wrap;
+	float: right;
+	/*align-content: space-between;*/
+	/*flex-direction: column;*/
+}
+
+section {
+	border: 1px solid darkgrey;
+	background-color: lightgrey;
+	height: 100px;
+	width: 750px;
+	margin: 10px;
+	flex-grow: 1;
+}
+
+p {
+	border: 1px solid darkgrey;
+	background-color: lightgrey;
+	height: 200px;
+	margin: 10px;
+}
+
+.large-box {
+	width: 400px;
+	flex-grow: 1;
+}
+.side-box {
+	width: 125px;
+}
+
+/*span {
+	display: flex;
+}*/
+
+article {
+	border: 1px solid darkgrey;
+	background-color: lightgrey;
+	margin: 10px;
+	height: 100px;
+	width: 125px;
+	flex-grow: 1;
+}
+
+footer {
+	clear: both;
+	background-color: lightgrey;
+	border: 1px solid darkgrey;
+	margin: 10px 0;
+	height: 100px;
+}
